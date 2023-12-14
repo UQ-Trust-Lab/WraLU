@@ -1,6 +1,6 @@
 # WraLU: An Approach to Approximate ReLU Hull
 
-This is about to how to use WraLU to calculate the ReLU hull for neural network verification.
+This is about to how to use **WraLU** to calculate the **ReLU hull** for neural network verification.
 
 Our paper *ReLU Hull Approximation* has been accepted by 24'POPL. Also you can learn this approach by [a quick introduction](https://zhongkuima.github.io/24popl_relu_hull.html).
 
