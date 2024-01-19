@@ -1,8 +1,8 @@
 # WraLU: ReLU Hull Approximation
 
-This is about to how to use **WraLU** to calculate the **ReLU hull** for neural network verification.
+This is about how to use **WraLU** to calculate the **ReLU hull** for neural network verification.
 
-Our paper *ReLU Hull Approximation* has been accepted by 24'POPL.
+Our paper *ReLU Hull Approximation* has been accepted by POPL‘24.
 
 ```tex
 @article{10.1145/3632917,
@@ -25,13 +25,13 @@ keywords = {Robustness, Polytope, Convexity, Neural Networks}
 }
 ```
 
-We have integrate WraLU to PRIMA (ERAN project, https://github.com/eth-sri/eran), so the process of installation is similar to ERAN. We recommend that install it according to our guide, because they have different installation paths.
+We have integrated WraLU into PRIMA (ERAN project, https://github.com/eth-sri/eran), so the process of installation is similar to ERAN. We recommend that install it according to our guide because they have different installation paths.
 
 ## Installation Guide
 
 ### Install WraLU
 
-First, cd to `WraLU` directory and bash `install.sh` or manually install the necessary libraries (refer to https://github.com/eth-sri/eran).
+First, cd to the `WraLU` directory and bash `install.sh` or manually install the necessary libraries (refer to https://github.com/eth-sri/eran).
 
 Our core algorithm is in `WraLU/kact/krelu/sci.py`
 
