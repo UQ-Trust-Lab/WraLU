@@ -7,5 +7,3 @@ sys.path.insert(0, '../../ELINA/python_interface/tests')
 
 from .group import *
 from .krelu import *
-from .krelu_beta import *
-from .ksshape import *
