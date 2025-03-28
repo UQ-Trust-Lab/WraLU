@@ -6,7 +6,7 @@ Welcome to **WraLU**—the **ReLU Hull Approximation** tool that’s revolutioni
 
 WraLU is designed to calculate the **ReLU hull**, an essential technique for overcoming the challenges of non-linearity in activation functions. If you're working on neural network verification or robustness, WraLU is your go-to solution for fast and precise ReLU hull approximation. 
 
-Our groundbreaking paper, **ReLU Hull Approximation**, has been accepted at **24'POPL** and is available here:
+Our groundbreaking paper, **ReLU Hull Approximation**, has been accepted at **POPL’24** and is available here:
 
 ```tex
 @article{10.1145/3632917,
