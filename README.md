@@ -1,10 +1,12 @@
-# WraLU: ReLU Hull Approximation
+# WraLU: ReLU Hull Approximation 🚀
 
 ![image-20240123103831526](README.assets/image-20240123103831526.png)
 
-This is about to how to use **WraLU** to calculate the **ReLU hull** for neural network verification.
+Welcome to **WraLU**—the **ReLU Hull Approximation** tool that’s revolutionizing neural network verification! 🎉 
 
-Our paper *ReLU Hull Approximation* has been accepted by 24'POPL.
+WraLU is designed to calculate the **ReLU hull**, an essential technique for overcoming the challenges of non-linearity in activation functions. If you're working on neural network verification or robustness, WraLU is your go-to solution for fast and precise ReLU hull approximation. 
+
+Our groundbreaking paper, **ReLU Hull Approximation**, has been accepted at **24'POPL** and is available here:
 
 ```tex
 @article{10.1145/3632917,
@@ -18,8 +20,6 @@ volume = {8},
 number = {POPL},
 url = {https://doi.org/10.1145/3632917},
 doi = {10.1145/3632917},
-abstract = {Convex hulls are commonly used to tackle the non-linearity of activation functions in the verification of neural networks. Computing the exact convex hull is a costly task though. In this work, we propose a fast and precise approach to over-approximating the convex hull of the ReLU function (referred to as the ReLU hull), one of the most used activation functions. Our key insight is to formulate a convex polytope that ”wraps” the ReLU hull, by reusing the linear pieces of the ReLU function as the lower faces and constructing upper faces that are adjacent to the lower faces. The upper faces can be efficiently constructed based on the edges and vertices of the lower faces, given that an n-dimensional (or simply nd hereafter) hyperplane can be determined by an (n−1)d hyperplane and a point outside of it. We implement our approach as WraLU, and evaluate its performance in terms of precision, efficiency, constraint complexity, and scalability. WraLU outperforms existing advanced methods by generating fewer constraints to achieve tighter approximation in less time. It exhibits versatility by effectively addressing arbitrary input polytopes and higher-dimensional cases, which are beyond the capabilities of existing methods. We integrate WraLU into PRIMA, a state-of-the-art neural network verifier, and apply it to verify large-scale ReLU-based neural networks. Our experimental results demonstrate that WraLU achieves a high efficiency without compromising precision. It reduces the number of constraints that need to be solved by the linear programming solver by up to half, while delivering comparable or even superior results compared to the state-of-the-art verifiers.},
-journal = {Proc. ACM Program. Lang.},
 month = {jan},
 articleno = {75},
 numpages = {28},
@@ -27,9 +27,13 @@ keywords = {Robustness, Polytope, Convexity, Neural Networks}
 }
 ```
 
-We have integrate WraLU to PRIMA (ERAN project, https://github.com/eth-sri/eran), so the process of installation is similar to ERAN. We recommend that install it according to our guide, because they have different installation paths.
+## What is WraLU?
 
-## Installation Guide
+WraLU is your **ultimate tool** for calculating ReLU hulls efficiently and accurately. Convex hulls are a critical tool in tackling the non-linearity of ReLU activation functions in neural network verification. Traditional methods can be slow and costly. WraLU drastically improves the process, delivering **fewer constraints, tighter approximations, and faster results**—all while being **versatile** and scalable, handling both simple and complex networks effortlessly.
+
+We’ve integrated WraLU into **PRIMA (ERAN project, https://github.com/eth-sri/eran)**, a state-of-the-art neural network verifier, making it easy to apply to large-scale ReLU-based neural networks. Ready to verify and experiment? Let’s dive in! 🔥
+
+## Installation Guide 🛠️
 
 ### Install WraLU
 
@@ -115,3 +119,6 @@ If you want to compare with DeepZono, run the following code.
 bash eran_benchmarks_deepzono.sh
 ```
 
+### Join the Revolution! 🌟
+
+WraLU is the perfect tool for anyone looking to verify RELU with **precision** and **efficiency**. Whether you're working on research, development, or benchmarking, WraLU takes your verification game to the next level. Try it now and experience the future of neural network verification! 🚀
